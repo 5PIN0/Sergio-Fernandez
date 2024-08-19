@@ -319,6 +319,11 @@ span {
     color: var(--text-color);
 }
 
+.dark-mode .certificates {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
 .certificates .heading {
     font-size: 4.5rem;
     text-align: center;
@@ -345,6 +350,11 @@ span {
     transition: transform .3s ease, box-shadow .3s ease;
 }
 
+.dark-mode .certificate-box {
+    background: #1e1e1e;
+    color: var(--text-color);
+}
+
 .certificate-box:hover {
     transform: scale(1.05);
     box-shadow: 0 .3rem 1rem var(--shadow-color);
@@ -369,11 +379,19 @@ span {
     margin-bottom: .5rem;
 }
 
+.dark-mode .certificate-info h3 {
+    color: var(--text-color);
+}
+
 .certificate-info a {
     font-size: 1.6rem;
     color: var(--main-color);
     text-decoration: underline;
     transition: color .3s ease;
+}
+
+.dark-mode .certificate-info a {
+    color: var(--main-color);
 }
 
 .certificate-info a:hover {
